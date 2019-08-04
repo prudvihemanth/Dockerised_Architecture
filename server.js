@@ -5,7 +5,7 @@ const logger = require('./src/utils/logger');
 
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello World');
+  res.send('Hello World\n');
 });
 
 app.listen(process.env.PORT, process.env.HOST);

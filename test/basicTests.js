@@ -14,7 +14,7 @@ describe('baseRoute', () => {
   it('returns status code 200', (done) => {
     request.get(baseurl, (error, response) => {
       assert.equal(200, response.statusCode);
-      assert.equal('Hello World\n', response.body);
+      assert.equal('Hello Mahesh\n', response.body);
       done();
     });
   });
